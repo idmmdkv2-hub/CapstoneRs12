@@ -1,0 +1,18 @@
+[
+  {
+    "q": "What is the core formula for the Chain Rule in Calculus?",
+    "a": "If a function is composite, written as h(x) = f(g(x)), then its derivative is:\nh'(x) = f'(g(x)) * g'(x)\n(In plain English: Take the derivative of the outside function while keeping the inside function the same, then multiply it by the derivative of the inside function.)"
+  },
+  {
+    "q": "Find the derivative of f(x) = sin(x^2).",
+    "a": "Using the Chain Rule:\n1. Outside function is sin(u) -> derivative is cos(u)\n2. Inside function is x^2 -> derivative is 2x\n3. Combine them: f'(x) = cos(x^2) * 2x\nFinal Answer: f'(x) = 2x * cos(x^2)"
+  },
+  {
+    "q": "What is the Ideal Gas Law formula in Chemistry, and what do the variables mean?",
+    "a": "The formula is: PV = nRT\n\nWhere:\nP = Pressure\nV = Volume\nn = Moles of gas\nR = The ideal gas constant (0.0821 L·atm/mol·K)\nT = Temperature (Must always be converted to Kelvin!)"
+  },
+  {
+    "q": "How do you convert a temperature from Celsius (°C) to Kelvin (K)?",
+    "a": "Add 273.15 to the Celsius temperature.\n\nFormula: K = °C + 273.15\nExample: Room temperature (25°C) becomes 25 + 273.15 = 298.15 K."
+  }
+]
