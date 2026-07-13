@@ -5,9 +5,9 @@ from pptx import Presentation
 from docx import Document
 from PIL import Image
 
-# Initialize the Gemini Client
-# To this clean version:
-client = genai.Client()
+# Initialize the Gemini Client by explicitly requesting your saved online secret
+client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
+
 # Helper function to extract text from different file types
 def extract_text(uploaded_file):
     file_ext = uploaded_file.name.split('.')[-1].lower()
