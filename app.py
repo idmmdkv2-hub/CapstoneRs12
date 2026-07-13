@@ -6,8 +6,8 @@ from docx import Document
 from PIL import Image
 
 # Initialize the Gemini Client
-client = genai.Client(api_key="AQ.Ab8RN6J7CZxd3T-UCaKQzoFF_1rsD4yZbP8kuE-08WaF2KuDvQ")
-
+# To this clean version:
+client = genai.Client()
 # Helper function to extract text from different file types
 def extract_text(uploaded_file):
     file_ext = uploaded_file.name.split('.')[-1].lower()
